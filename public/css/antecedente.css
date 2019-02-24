@@ -1,0 +1,311 @@
+.testimonio_mascota {
+    margin-top: 60px;
+    position: relative;
+}
+
+article,
+aside,
+dialog,
+figure,
+footer,
+header,
+hgroup,
+section,
+menu {
+    display: block;
+}
+
+body,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7 p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+code,
+del,
+dfn,
+em,
+img,
+q,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+dialog,
+figure,
+footer,
+header,
+hgroup,
+section,
+menu,
+details {
+    margin: auto;
+    margin-top: auto;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+.testimonio_mascota .full_container {
+    background-image: url("../img/trama.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-color: #e5e5e5;
+    padding: 1em 0 4em;
+    -webkit-transform: skew(0deg, 2.5deg);
+    -moz-transform: skew(0deg, 2.5deg);
+    -o-transform: skew(0deg, 2.5deg);
+    -ms-transform: skew(0deg, 2.5deg);
+    transform: skew(0deg, 2.5deg);
+}
+
+.testimonio_mascota .full_container .container {
+    -webkit-transform: skew(0deg, -2.5deg);
+    -moz-transform: skew(0deg, -2.5deg);
+    -o-transform: skew(0deg, -2.5deg);
+    -ms-transform: skew(0deg, -2.5deg);
+    transform: skew(0deg, -2.5deg);
+    min-height: 480px;
+    position: relative;
+}
+
+.container_medium {
+    max-width: 1500px;
+}
+
+.container {
+    width: 98%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.testimonio_mascota .full_container .container .title {
+    margin-left: 4em;
+}
+
+.testimonio_mascota .full_container .container .title {
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+    margin-bottom: 3em;
+    margin-left: 2em;
+}
+
+.testimonio_mascota .full_container .container .title h4 {
+    display: block;
+    font-size: 35px;
+    color: #ff4304;
+    position: relative;
+    font-family: 'ventura_eddingmedium';
+    color: #00b2e2;
+}
+
+h4 {
+    padding: 0;
+    margin: 0 0 10px;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.testimonio_mascota .full_container .container .title h3 {
+    display: block;
+    font-size: 44px;
+    color: #ff4612;
+    position: relative;
+    font-family: 'ventura_eddingmedium';
+}
+
+h3 {
+    margin: 0 0 10px;
+    font-size: 12px;
+    line-height: 1;
+}
+
+.testimonio_mascota .full_container .bloque_picture.bloque_1 {
+    position: relative;
+    display: inline-block;
+}
+
+.testimonio_mascota .full_container .bloque_picture {
+    position: absolute;
+}
+
+.testimonio_mascota .full_container .bloque_picture a {
+    position: relative;
+}
+
+.picture_border {
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #a9a9ac;
+    border-bottom: 2px solid #a9a9ac;
+    display: inline-block;
+    -webkit-box-shadow: 6px 6px 20px 1px #b9bbbe;
+    box-shadow: 6px 6px 20px 1px #b9bbbe;
+    position: relative;
+    z-index: 3;
+}
+
+a {
+    margin: 0;
+    outline: none !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+.testimonio_mascota .full_container .bloque_picture.bloque_1 a span {
+    width: 220px;
+}
+
+.testimonio_mascota .full_container .bloque_picture a span {
+    position: relative;
+}
+
+.picture_border .inner_picture {
+    border-top: 14px solid #dbdbdb;
+    border-left: 14px solid #d1d1d1;
+    border-right: 14px solid #e6e6e6;
+    border-bottom: 14px solid #d5d7d9;
+    display: block;
+}
+
+.picture_border .inner_picture img {
+    border-top: 2px solid #b9bbbe;
+    border-left: 2px solid #b9bbbe;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    display: block;
+}
+
+.img_res {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+a img {
+    border: none;
+    border-top-color: currentcolor;
+    border-top-style: none;
+    border-top-width: medium;
+    border-right-color: currentcolor;
+    border-right-style: none;
+    border-right-width: medium;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-left-color: currentcolor;
+    border-left-style: none;
+    border-left-width: medium;
+}
+
+.testimonio_mascota .full_container .bloque_picture.bloque_1 .text {
+    left: -20px;
+}
+
+.testimonio_mascota .full_container .bloque_picture.bloque_1 .text {
+    left: -90px;
+    bottom: -70px;
+}
+
+.testimonio_mascota .full_container .bloque_picture .text {
+    color: #c7c7c7;
+    font-size: 75px;
+    font-family: 'kaushan_scriptregular';
+    position: absolute;
+    z-index: 2;
+}
+
+.testimonio_mascota .full_container .bloque_picture.bloque_2 {
+    display: inline-block;
+    left: 32%;
+    top: 2%;
+}
+
+.testimonio_mascota .full_container .bloque_picture.bloque_2 a span {
+    width: 150px;
+}
+
+.testimonio_mascota .full_container .bloque_picture.bloque_2 .text {
+    left: -68px;
+    bottom: -80px;
+}
+
+.testimonio_mascota .full_container .bloque_picture.bloque_3 {
+    display: inline-block;
+    left: 32%;
+    top: 65%;
+}
+
+.testimonio_mascota .full_container .bloque_picture.bloque_3 a span {
+    width: 190px;
+}
+
+.testimonio_mascota .full_container .bloque_picture.bloque_3 .text {
+    right: -320px;
+    top: 20px;
+}
+
+.testimonio_mascota .full_container .bloque_picture.bloque_4 {
+    display: inline-block;
+    left: 51%;
+    top: 20%;
+}
+
+.testimonio_mascota .full_container .bloque_picture.bloque_4 a span {
+    width: 250px;
+}
+
+.testimonio_mascota .full_container .bloque_picture.bloque_4 .text {
+    top: -105px;
+    right: -58px;
+}
