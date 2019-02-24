@@ -36,7 +36,7 @@
             <div class="collapse navbar-collapse" id="menu-principal">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="/views/index.html" class="nav-link active"><span class=" fa fa-home float-left" style="font-size: 25px;"></span> Inicio</a>
+                        <a href="/views/index.html" class="nav-link "><span class=" fa fa-home float-left" style="font-size: 25px;"></span> Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a href="/views/adopta.html" class="nav-link"><span class="fa fa-dog float-left" style="font-size: 25px;"></span> Adopta</a>
@@ -53,7 +53,7 @@
                         <a href="/views/contacto.html" class="nav-link "> <span class="fa fa-envelope float-left" style="font-size: 25px;"></span> Contacto</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/views/acercade.html" class="nav-link "><span class="fa fa-info float-left" style="font-size: 25px;"></span> Acerca de</a>
+                        <a href="/views/acercade.html" class="nav-link active "><span class="fa fa-info float-left" style="font-size: 25px;"></span> Acerca de</a>
                     </li>
                 </ul>
             </div>
@@ -108,160 +108,10 @@
         </div>
     </div>
     <br><br>
-    <!--Carousel-->
-    <section id="carousel" class="pt-3">
-        <div class="container">
-            <br>
-            <div class="col-md-12">
-                <div id="carousel-1" class="carousel slide" data-ride="carousel">
-                    <!--INDICADORES-->
-                    <ol class="carousel-indicators">
-                        <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel-1" data-slide-to="1"></li>
-                        <li data-target="#carousel-1" data-slide-to="2"></li>
-                    </ol>
-                    <!--CONTENEDOR DE LOS SLIDE-->
-                    <div class="carousel-inner text-center rounded" role="listbox">
-                        <div class="carousel-item active">
-                            <img src="/public/img/grandes/11.jpg" class="img-resposive" alt="">
-                            <div class="carousel-caption">
-                                <h1 class="h2" style="color: white">Adoptar es Amar!</h1>
-                                <h2 class="h2" style="color: white">Cambia una vida y suma felicidad a tu hogar.</h2>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="/public/img/grandes/13.jpg" class="img-resposive" alt="">
-                            <div class="carousel-caption">
-                                <h1 class="h2" style="color: white">Adoptar es Cuidar!</h1>
-                                <h2 class="h2" style="color: white">Cambia una vida y suma felicidad a tu hogar.</h2>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="/public/img/grandes/3.jpg" class="img-resposive" alt="">
-                            <div class="carousel-caption">
-                                <h1 class="h2" style="color: white">Adoptar es Adorar!</h1>
-                                <h2 class="h2" style="color: white">Cambia una vida y suma felicidad a tu hogar.</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Left and right controls -->
-                    <a class="carousel-control-prev" href="#carousel-1" data-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </a>
-                    <a class="carousel-control-next" href="#carousel-1" data-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- GALLERIA -->
-    <section class="gallery-block cards-gallery pt-4">
-        <div class="container ">
-            <div class="heading text-center">
-                <h2 class="h2">Mis Mascotas</h2>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-lg-4">
-                    <div class="card border-0 transform-on-hover">
-                        <a class="lightbox" href="/descripcionMascota"><img src="/public/img/animals/1.jpg" class="card-img-top"></a>
-                        <div class="card-body">
-                            <h6>Codi</h6>
-                            <p class="text-muted card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.</p>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-md-6 col-lg-4">
-                    <div class="card border-0 transform-on-hover">
-                        <a class="lightbox" href="/descripcionMascota"><img src="/public/img/animals/2.jpg" class="card-img-top"></a>
-                        <div class="card-body">
-                            <h6>Telmo</h6>
-                            <p class="text-muted card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="card border-0 transform-on-hover">
-                        <a class="lightbox" href="/descripcionMascota"><img src="/public/img/animals/3.jpg" class="card-img-top"></a>
-                        <div class="card-body">
-                            <h6>Firulais</h6>
-                            <p class="text-muted card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 text-center">
-                    <br>
-                    <a href="" class="h3"><span class="fa fa-paw "></span> Conoce mas mascotas aqui</a>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
-    <script>
-        baguetteBox.run('.cards-gallery', {
-            animation: 'slideIn'
-        });
-    </script>
-
-    <!--ANTECEDENTES -->
-    <section class="testimonio_mascota pb-4">
-        <div class="full_container">
-            <div class="container container_medium">
-                <div class="title title_active">
-                    <h4>Historias</h4>
-                    <h3>
-                        Para Enmarcar
-                    </h3>
-                </div>
-                <div class="cnt-bloque">
-                    <div class="bloque_picture bloque_1 b_1_active">
-                        <a href="" class="picture_border">
-                            <span class="inner_picture">
-                                <img src="/public/img/animals/5.jpg" alt="" class="img_res" width="234" height="240">
-                            </span>
-                        </a>
-                        <span class="text">Leal</span>
-                    </div>
-                    <div class="bloque_picture bloque_2 b_2_active">
-                        <a href="" class="picture_border">
-                            <span class="inner_picture">
-                                <img src="/public/img/animals/7.jpg" alt="" class="img_res" width="140" height="140">
-                            </span>
-                        </a>
-                        <span class="text">amistad</span>
-                    </div>
-                    <div class="bloque_picture bloque_3 b_3_active">
-                        <a href="" class="picture_border">
-                            <span class="inner_picture">
-                                <img src="/public/img/animals/3.jpg" alt="" class="img_res" width="198" height="132">
-                            </span>
-                        </a>
-                        <span class="text">companero</span>
-                    </div>
-                    <div class="bloque_picture bloque_4 b_4_active">
-                        <a href="" class="picture_border">
-                            <span class="inner_picture">
-                                <img src="/public/img/grandes/13.jpg" alt="" class="img_res" width="198" height="132">
-                            </span>
-                        </a>
-                        <span class="text">amigo</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Google map-->
-    <div class="container pt-4">
-        <h2 class="h2 text-center">Ubicanos</h2>
-        <div class="map-responsive">
-            <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Eiffel+Tower+Paris+France" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
-    </div>
     <!--FOOTER-->
-    <footer class="pie-pagina m-0 p-3 bg-dark">
+    <footer class="pie-pagina  mt-3 pt-3 bg-dark">
         <div class="container ">
             <div class="row text-center">
                 <div class="col-md-4 col-xl-5">
